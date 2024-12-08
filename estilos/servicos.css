@@ -1,0 +1,23 @@
+#servicos {
+    background: var(--gray-100);
+}
+.container__servicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    place-content: center;
+    padding: 0 239px 120px 239px;
+    
+}
+.servicos__cards {    
+    border: 1px solid var(--gray-500);    
+    border-radius: 10px;
+    width: 320px;
+    height: 155px;
+    img {
+        padding: 20px;             
+    }
+    figcaption {
+        padding-inline: 20px;        
+    }    
+}

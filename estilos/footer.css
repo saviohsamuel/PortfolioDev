@@ -1,0 +1,42 @@
+footer {
+    background-image: url('../assets/imagens/Background_Contacts.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    .titulo {
+        h2 {
+            color: var(--purple);            
+        }
+        p {
+            font: var(--texto-sm);
+        }
+    }    
+}
+.lista__contato {
+    display: grid;
+    place-content: center;
+    row-gap: 16px;
+    padding-bottom: 200px;
+    li {
+        display: grid;
+        grid-template-columns: 10% 85% 5%;
+        align-items: center;
+        height: 68px;
+        width: 400px;
+        background: var(--gray-300);  
+        border: 1px solid transparent;      
+        border-radius: 15px;
+        padding: 20px;
+        &:hover{            
+            border: 1px solid var(--blue);
+        }
+        img {
+            height: 28px;
+            width: 28px;
+        }
+    }
+}
+.redirecionamento {
+    height: 20px;
+    width: 20px;
+}

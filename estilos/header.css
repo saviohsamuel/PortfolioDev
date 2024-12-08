@@ -1,0 +1,57 @@
+header {
+    background-image: url('../assets/imagens/Background_Intro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    text-align: center;       
+}
+.avatar {
+    height: 112px;
+    width: 112px;
+}
+.container__apresentacao {
+    padding: 80px 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.apresentacao {    
+    margin-block: 56px 80px;
+    h2 {
+        font: var(--subtitulo);        
+        strong {
+            color: var(--red);
+            font-weight: 100;
+        }
+    }
+    h1 {
+        margin-block: 8px 20px;
+        font: var(--titulo-lg);
+    }
+    p {      
+        font: var(--texto-sm);
+    }
+}
+.lista__tecnologias {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 16px;        
+    margin: 40px 143px 0 143px;
+    li {    
+        display: flex;        
+        justify-content: center;
+        font: var(--texto-md);
+        background: var(--gray-300);
+        border-radius: 30px;        
+        column-gap: 8px;
+        padding: 8px 16px;        
+        img {
+            height: 24px;
+            width: 24px;
+        }
+    }
+}
+.seta__header {
+    margin-block: 94px 0;
+}
