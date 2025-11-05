@@ -54,6 +54,7 @@ footer {
 }
 @media (max-width: 600px) {
     .links {
+        width: 100%;
         padding: 1rem;
     }
 }
