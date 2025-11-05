@@ -84,3 +84,20 @@
         }
     }
 }
+@media (max-width: 600px) {    
+    .content-info {
+        width: 100%;        
+    }
+    .text {
+        & p:nth-child(1) {
+            font-size: 1rem;
+        }
+        & p:nth-child(3) {
+            padding-inline: 1rem;
+        }
+    }
+    .tags {
+        justify-content: center;
+        flex-wrap: wrap;        
+    }
+}
