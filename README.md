@@ -28,8 +28,11 @@ Praticar fundamentos de **HTML e CSS**, como:
 
 ## 🖥️ Layout
 
-> ⚠️ Este projeto foi desenvolvido **apenas para desktop**.  
-> O foco do desafio é a prática de conceitos de flex, grid, background e etc.
+> Responsivo;
+> 
+> Desktop;
+> 
+> Mobile.
 
 ---
 
@@ -44,6 +47,4 @@ Praticar fundamentos de **HTML e CSS**, como:
 ---
 
 ## 🖥️ Pré visualização do projeto
-
-<img width="1366" height="2934" alt="Projeto" src="https://github.com/user-attachments/assets/712753ae-5c53-403f-804d-809266b02f78" />
-
+<img width="1200" height="627" alt="responsivo (1)" src="https://github.com/user-attachments/assets/23aa48d6-609f-4986-ae16-f7e054cc93f0" />
